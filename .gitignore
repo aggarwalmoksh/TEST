@@ -1,5 +1,25 @@
+# Environment files
 .env
-venv/
-*.sqlite3
+*.env
+
+# Python cache and compiled files
 __pycache__/
-*.pyc
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Database files
+*.sqlite3
+*.db
+
+# IDE/editor config files (optional, for cleaner repos)
+.vscode/
+.idea/
+*.swp
+
+# Mac OS
+.DS_Store
